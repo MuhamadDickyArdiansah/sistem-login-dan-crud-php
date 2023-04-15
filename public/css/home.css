@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Style Navbar */
+.navbar {
+    z-index: 2;
+}
+
+body {
+    background: #eaeaea;
+}
+
+.banner {
+    background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg")
+        no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    height: 100vh;
+    color: #fff;
+}
+
+.banner .container h1,
+.banner .container p {
+    text-shadow: 2px 2px 5px black;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    empty-cells: show;
+    font-size: 15px;
+    line-height: 24px;
+}
